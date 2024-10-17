@@ -1,0 +1,88 @@
+body {
+   
+    background: radial-gradient(circle, rgba(251, 224, 240, 0.7), rgba(0, 0, 150, 0.5));
+    margin: 0;
+}
+*{
+   
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+    position: fixed;
+    width: 100%;
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15px;
+}
+
+.hero {
+    color: #fff;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding-inline: 15px;
+}
+
+.home {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    color: black;
+    background: radial-gradient(circle, rgba(91, 47, 73, 0.7), rgba(0, 0, 150, 0.5));
+}
+
+.home-img {
+    margin-top: 50px;
+}
+
+.about {
+    color: black;
+    margin-top: 150px;
+    padding-inline: 15px;
+    font-size: 20px;
+    
+}
+
+.skills {
+    margin-top: 150px;
+    padding-inline: 15px;
+    color:black;
+    font-size: 20px;
+    
+}
+
+.education {
+    padding-inline: 15px;
+    color:black;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #fff;
+    padding-bottom: 30px;
+    padding-inline: 20px;
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
